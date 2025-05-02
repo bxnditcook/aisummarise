@@ -1,0 +1,169 @@
+/* AI Message Assistant Button Styles */
+.aima-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s, background-color 0.2s;
+}
+
+.aima-button:hover {
+    opacity: 1;
+    background-color: rgba(79, 84, 92, 0.16);
+}
+
+.aima-selected {
+    opacity: 1;
+    background-color: var(--brand-experiment);
+    color: white;
+}
+
+/* Selection Modal Styles */
+.aima-selection-modal {
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    padding: 16px;
+    color: var(--text-normal);
+    width: 450px;
+    max-width: 90vw;
+}
+
+.aima-selection-modal h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.aima-actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.aima-summarize-btn,
+.aima-analyze-btn,
+.aima-close-btn,
+.aima-cancel-btn {
+    padding: 8px 16px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.aima-summarize-btn {
+    background-color: var(--brand-experiment);
+    color: white;
+}
+
+.aima-summarize-btn:hover {
+    background-color: var(--brand-experiment-560);
+}
+
+.aima-analyze-btn {
+    background-color: var(--brand-experiment-30a);
+    color: var(--brand-experiment);
+}
+
+.aima-analyze-btn:hover {
+    background-color: var(--brand-experiment-40a);
+}
+
+.aima-cancel-btn {
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
+}
+
+.aima-cancel-btn:hover {
+    background-color: var(--background-tertiary);
+}
+
+/* Result Modal Styles */
+.aima-result-modal {
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    padding: 20px;
+    color: var(--text-normal);
+    width: 500px;
+    max-width: 90vw;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.aima-result-modal h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.aima-mature-warning {
+    background-color: rgba(240, 71, 71, 0.1);
+    color: rgb(240, 71, 71);
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.aima-result-content {
+    background-color: var(--background-secondary);
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.aima-result-content h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.aima-result-content h4 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.aima-result-content ul {
+    margin: 8px 0;
+    padding-left: 24px;
+}
+
+.aima-result-content li {
+    margin-bottom: 6px;
+}
+
+.aima-result-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.aima-close-btn {
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
+    padding: 8px 16px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.aima-close-btn:hover {
+    background-color: var(--background-tertiary);
+}
