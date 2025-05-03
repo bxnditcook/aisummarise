@@ -16,23 +16,18 @@ const UserStore = findStoreLazy("UserStore");
 // Enhanced list of words to flag for mature content
 const MATURE_WORDS = [
     // Racial/ethnic slurs
-    "nigga", "nigger", "kike", "chink", "spic", "wetback", "gook", "towelhead", "fairy", "twink", "gender-bender", "crossdresser",
+    "nigga", "nigger", "kike", "chink", "spic", "wetback", "gook", "towelhead",
     // Ableist slurs
     "retard", "spaz", "tard", "mongoloid", 
     // Sexual/explicit content
-    "clit", "tits", "boobs", "titty", "milf", "daddy kink", "bdsm", "sex", "sext", "69",
-    "deepthroat", "hentai", "porn", "porno", "porns", "threesome", "orgy", 
-    "rawdog", "nut", "squirt", "moan", "fucktoy", "nudes",
-    "onlyfans", "nsfw", "incest"", "creampie", "splooge",
-    "boobjob", "dildo", "vibrator", "orgasm",
+    "motherfucker", "cock", "dick", "pussy", "cunt", "cum", "jizz", "anal", "fisting",
+    "blowjob", "footjob", "handjob", "rimjob", "pawjob", "condo game", 
     // Homophobic/transphobic slurs
     "faggot", "dyke", "tranny", "fag", "homo", "queer",
     // Misogynistic terms
     "slut", "whore", "bitch", "hoe", 
     // Other offensive language
-    "an hero", "rope", "hang myself", "die alone", "unalive", "noose", 
-    "i want to die", "i hate myself", "jump off", "self harm", "cutting", 
-    "wrist slit", "burn myself", "drink bleach"
+    "kys", "kill yourself", "kill urself"
 ];
 
 interface AIMASettings {
